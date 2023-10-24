@@ -13,6 +13,7 @@ import Form from "./component/Form";
 // import Routing from "./component/Routing";
 import LifeCycle from "./component/LifeCycle";
 import Product from "./component/Product";
+import PostList from "./component/PostList";
 
 class App extends React.Component {
   render() {
@@ -22,7 +23,10 @@ class App extends React.Component {
 
 
       {/* <LifeCycle></LifeCycle> */}
-      <Product></Product>
+      {/* <LifeCycle></LifeCycle> */}
+      {/* <LifeCycle></LifeCycle> */}
+      <PostList></PostList>
+      {/* <Product></Product> */}
         {/* <Routing></Routing> */}
         {/* <Form></Form> */}
         {/* <h1 className={Style.success}>Green</h1>
