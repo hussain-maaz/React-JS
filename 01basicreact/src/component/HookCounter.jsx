@@ -18,6 +18,13 @@ function HookCounter() {
     setCount1(count1 - 1);
     // uE();
   };
+  const Incremented = () => {
+    for (let i = 0; i < 10; i++) {
+    //   setCount(count + 1);
+    //   setCount(count + i + 1);
+    setCount(count => count + 1);
+    }
+  };
 
   //   const uE = function useEffect() {
   //     console.log("useEffect invoked");
@@ -25,7 +32,7 @@ function HookCounter() {
 
   useEffect(() => {
     console.log("useEffect invoked");
-  },[count1,counter]);
+  }, [count1, counter]);
 
   return (
     <div>
@@ -34,8 +41,9 @@ function HookCounter() {
       <h1>{titleName}</h1>
       <br></br>
       <button onClick={changleHandle}>Change</button>
-      <button onClick={Increment}>Increment{count}</button>
-      <button onClick={Decrement}>Decrement{count1}</button>
+      <button onClick={Increment}>Increment - {count}</button>
+      <button onClick={Decrement}>Decrement - {count1}</button>
+      <button onClick={Incremented}>Increment by 10 - {count}</button>
     </div>
   );
 }
