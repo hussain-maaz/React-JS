@@ -14,19 +14,19 @@ import Form from "./component/Form";
 import LifeCycle from "./component/LifeCycle";
 import Product from "./component/Product";
 import PostList from "./component/PostList";
+import PostForm from "./component/PostForm";
 
 class App extends React.Component {
   render() {
-    const numbers = [5, 6, 7, 8];
+    // const numbers = [5, 6, 7, 8];
     return (
       <>
-
-
-      {/* <LifeCycle></LifeCycle> */}
-      {/* <LifeCycle></LifeCycle> */}
-      {/* <LifeCycle></LifeCycle> */}
-      <PostList></PostList>
-      {/* <Product></Product> */}
+        {/* <LifeCycle></LifeCycle> */}
+        {/* <LifeCycle></LifeCycle> */}
+        {/* <LifeCycle></LifeCycle> */}
+        {/* <PostList></PostList> */}
+        <PostForm></PostForm>
+        {/* <Product></Product> */}
         {/* <Routing></Routing> */}
         {/* <Form></Form> */}
         {/* <h1 className={Style.success}>Green</h1>

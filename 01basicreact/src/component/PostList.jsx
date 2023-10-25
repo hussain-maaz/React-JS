@@ -5,16 +5,16 @@ class PostList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      posts: [],
+      users: [],
       error: "",
     };
   }
   componentDidMount() {
     axios
-      .get("https://jsonplaceholder.typicode.com/posts")
+      .get("https://dummyjson.com/users")
       .then((response) => {
         this.setState({
-          posts: response.data,
+          users: response.data.users,
         });
         console.log(response);
       })
@@ -26,15 +26,15 @@ class PostList extends React.Component {
   }
 
   render() {
-    const { posts, error } = this.state;
+    const { users, error } = this.state;
     return (
       <div>
         <h1>
-          List Posts
-          {posts.length
-            ? posts.map((posts) => (
-                <div key={posts.id}>
-                  {posts.id}-{posts.title}
+          List Users
+          {users.length
+            ? users.map(users => (
+                <div key={users.id}>
+                  {users.id} - {users.firstName}  {users.lastName}
                   <br />
                 </div>
               ))
