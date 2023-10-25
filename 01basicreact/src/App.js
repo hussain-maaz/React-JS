@@ -14,18 +14,20 @@ import Form from "./component/Form";
 import LifeCycle from "./component/LifeCycle";
 import Product from "./component/Product";
 import PostList from "./component/PostList";
-import PostForm from "./component/PostForm";
+// import PostForm from "./component/PostForm";
+import HookCounter from "./component/HookCounter";
 
 class App extends React.Component {
   render() {
     // const numbers = [5, 6, 7, 8];
     return (
       <>
+        <HookCounter></HookCounter>
         {/* <LifeCycle></LifeCycle> */}
         {/* <LifeCycle></LifeCycle> */}
         {/* <LifeCycle></LifeCycle> */}
         {/* <PostList></PostList> */}
-        <PostForm></PostForm>
+        {/* <PostForm></PostForm> */}
         {/* <Product></Product> */}
         {/* <Routing></Routing> */}
         {/* <Form></Form> */}
