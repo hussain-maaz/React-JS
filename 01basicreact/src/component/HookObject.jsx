@@ -24,7 +24,7 @@ function HookObject() {
           }}
         />
         <br />
-        user: {user.firstName}{user.lastName}
+        user: {user.firstName}-{user.lastName}
       </form>
     </div>
   );
