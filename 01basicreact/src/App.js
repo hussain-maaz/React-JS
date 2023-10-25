@@ -16,13 +16,15 @@ import Product from "./component/Product";
 import PostList from "./component/PostList";
 // import PostForm from "./component/PostForm";
 import HookCounter from "./component/HookCounter";
+import HookObject from "./component/HookObject";
 
 class App extends React.Component {
   render() {
     // const numbers = [5, 6, 7, 8];
     return (
       <>
-        <HookCounter></HookCounter>
+        {/* <HookCounter></HookCounter> */}
+        <HookObject></HookObject>
         {/* <LifeCycle></LifeCycle> */}
         {/* <LifeCycle></LifeCycle> */}
         {/* <LifeCycle></LifeCycle> */}

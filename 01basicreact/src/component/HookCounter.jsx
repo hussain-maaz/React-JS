@@ -7,7 +7,7 @@ function HookCounter() {
 
   const changleHandle = () => {
     setTitleName("changing the state");
-    console.log(titleName);
+    // console.log(titleName);
     setCounter(counter * 5);
   };
   const Increment = () => {
@@ -32,7 +32,7 @@ function HookCounter() {
 
   useEffect(() => {
     console.log("useEffect invoked");
-  }, [count1, counter]);
+  }, [count1, counter,count]);
 
   return (
     <div>
