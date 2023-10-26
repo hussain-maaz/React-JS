@@ -18,13 +18,18 @@ import PostList from "./component/PostList";
 import HookCounter from "./component/HookCounter";
 import HookObject from "./component/HookObject";
 import HookArray from "./component/HookArray";
+import ClassPositionXY from "./component/ClassPositionXY";
+import FunctionPositionXY from "./component/FunctionPositionXY";
 
 class App extends React.Component {
   render() {
     // const numbers = [5, 6, 7, 8];
     return (
       <>
-        <HookArray></HookArray>
+        {/* <ClassPositionXY></ClassPositionXY> */}
+        <FunctionPositionXY></FunctionPositionXY>
+        {/* <HookArray></HookArray> */}
+
         {/* <HookObject></HookObject> */}
         {/* <HookCounter></HookCounter> */}
         {/* <LifeCycle></LifeCycle> */}
