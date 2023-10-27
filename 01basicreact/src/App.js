@@ -21,15 +21,18 @@ import HookArray from "./component/HookArray";
 import ClassPositionXY from "./component/ClassPositionXY";
 import FunctionPositionXY from "./component/FunctionPositionXY";
 
+import A from "./component/A";
+
 class App extends React.Component {
   render() {
     // const numbers = [5, 6, 7, 8];
     return (
       <>
-        {/* <ClassPositionXY></ClassPositionXY> */}
-        <FunctionPositionXY></FunctionPositionXY>
-        {/* <HookArray></HookArray> */}
+        <A name="Maaz Hussain"></A>
 
+        {/* <ClassPositionXY></ClassPositionXY> */}
+        {/* <FunctionPositionXY></FunctionPositionXY> */}
+        {/* <HookArray></HookArray> */}
         {/* <HookObject></HookObject> */}
         {/* <HookCounter></HookCounter> */}
         {/* <LifeCycle></LifeCycle> */}
