@@ -20,6 +20,9 @@ import HookObject from "./component/HookObject";
 import HookArray from "./component/HookArray";
 import ClassPositionXY from "./component/ClassPositionXY";
 import FunctionPositionXY from "./component/FunctionPositionXY";
+import Ajay from "./component/Ajay";
+import Vikas from "./component/Vikas";
+import Sushant from "./component/Sushant";
 
 import A from "./component/A";
 
@@ -28,8 +31,11 @@ class App extends React.Component {
     // const numbers = [5, 6, 7, 8];
     return (
       <>
-        <A name="Maaz Hussain"></A>
+        <Ajay></Ajay>
+        <Sushant></Sushant>
+        <Vikas></Vikas>
 
+        {/* <A name="Maaz Hussain"></A> */}
         {/* <ClassPositionXY></ClassPositionXY> */}
         {/* <FunctionPositionXY></FunctionPositionXY> */}
         {/* <HookArray></HookArray> */}
