@@ -7,9 +7,9 @@ import NewFun from "./component/FunctionClicked";
 import CfuntionClick from "./component/CfunctionClick";
 import StyleSheet from "./component/StyleSheet";
 import Inline from "./component/Inline";
-import "./component/AppStyle.css";
-import Style from "./component/AppStyle.module.css";
-import Form from "./component/Form";
+// import "./component/AppStyle.css";
+// import Style from "./component/AppStyle.module.css";
+// import Form from "./component/Form";
 // import Routing from "./component/Routing";
 import LifeCycle from "./component/LifeCycle";
 import Product from "./component/Product";
@@ -23,6 +23,8 @@ import FunctionPositionXY from "./component/FunctionPositionXY";
 import Ajay from "./component/Ajay";
 import Vikas from "./component/Vikas";
 import Sushant from "./component/Sushant";
+import Calculator from "./component/Calculator";
+import Style from "./component/StyleCal.css"
 
 import A from "./component/A";
 
@@ -31,9 +33,10 @@ class App extends React.Component {
     // const numbers = [5, 6, 7, 8];
     return (
       <>
-        <Ajay></Ajay>
-        <Sushant></Sushant>
-        <Vikas></Vikas>
+        {/* <Ajay></Ajay> */}
+       <div className="app-container"> <Calculator></Calculator></div>
+        {/* <Sushant></Sushant>
+        <Vikas></Vikas> */}
 
         {/* <A name="Maaz Hussain"></A> */}
         {/* <ClassPositionXY></ClassPositionXY> */}
